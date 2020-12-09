@@ -84,6 +84,7 @@ function App() {
       setEmail(event.target.value);
       const pattern = /^\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$/;
       if (pattern.test(event.target.value)) {
+        console.log("test");
         setEmailError(false);
         setIsValidEmail(false);
       } else {
