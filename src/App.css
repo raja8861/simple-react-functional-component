@@ -14,13 +14,13 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #1256bb;
+  min-height: 12vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: xx-large;
   color: white;
 }
 
@@ -35,4 +35,14 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.MuiButton-containedPrimary {
+  margin-left: 20px !important;
+}
+
+.summary {
+  display: flex;
+  margin: 32px;
+  border: 2px #1256bb saddlebrown;
 }
